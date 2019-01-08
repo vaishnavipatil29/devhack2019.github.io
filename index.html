@@ -31,29 +31,50 @@
 		</head>
 		<body>
 
+
 			  <header id="header" id="home">
 			    <div class="container">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.html"><img src="img/DevHack_logo.png" alt="" title="" /></a>
+				        <a href="index.html"><img src="img/DevHack_logo.png" alt="" title="Logo" style="max-width: 200px" /></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 				          <li class="menu-active"><a href="#home">Home</a></li>
 				          <li><a href="#schedule">Schedule</a></li>
-				          <li><a href="#wip">Resources</a></li>
+				          <li><a href="https://www.github.com/devhack2019/resources">Resources</a></li>
+				          <li><a  data-toggle="modal" data-target="#myModal" style="color:#666666">Problem Statements</a></li>
 				          <!-- <li class="menu-has-children"><a href="">Problem Statements</a> -->
-				            <ul>
+				            <!-- <ul>
 				              <li><a href="">Software</a></li>
 				              <li><a href="">Hardware</a></li>
 				            </ul>
-				          </li>
+				          </li> -->
 				        </ul>
 				      </nav><!-- #nav-menu-container -->		    		
 			    	</div>
 			    </div>
 			  </header><!-- #header -->
-
+			  <!-- Modal -->
+			  <div class="modal fade" id="myModal" role="dialog">
+			    <div class="modal-dialog">
+			    
+			      <!-- Modal content-->
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <h4 class="modal-title">Ooops!</h4>
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        </div>
+			        <div class="modal-body">
+			          <p>It was light grey. Why did you click it? <img src="img/smiley.png" style="width: 30px;"><br> Tick-tock. . . . . .please wait for the countdown</p>
+			        </div>
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        </div>
+			      </div>
+			      
+			    </div>
+			  </div>
 
 			<!-- start banner Area -->
 			<section class="banner-area relative" id="home">	
@@ -149,7 +170,7 @@
 								    <tr>
 								      <th class="name" scope="row">04</th>
 								      <td> I : IDEATION</td>				      
-								      <td> 22:00 hrs - 4:00 hrs </td>						      
+								      <td> 22:00 hrs - 6:00 hrs </td>						      
 								    </tr>
 								    <tr>
 								      <th class="name" scope="row">05</th>
@@ -211,7 +232,7 @@
 			<section class="brand-area section-gap">
 				<div class="container">
 					<div class="row logo-wrap">
-						<a class="col single-img" href="">
+						<a class="col single-img" href="https://www.github.com/devhack2019">
 							<img class="d-block mx-auto" src="img/github-logo.png" alt="GitHub" style="width:30%">
 						</a>
 					</div>	
@@ -221,7 +242,7 @@
 			<section class="" id="wip">
 			</section>
 			<!-- Start callaction Area -->
-			<section class="callaction-area relative section-gap">
+			<<!-- section class="callaction-area relative section-gap">
 				<div class="overlay overlay-bg"></div>
 				<div class="container">
 					<div class="row justify-content-center">
@@ -233,9 +254,111 @@
 						</div>
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End callaction Area -->
-					
+
+			<!-- Start spekers Area -->
+			<section class="spekers-area pb-100" id="speakers">
+				<div class="container-fluid">
+					<div class="row no-padding">
+						<div class="active-speaker-carusel col-lg-12 no-padding">
+							<div class="single-speaker item">
+								<div class="container">
+									<div class="row align-items-center">
+										<div class="col-md-6 speaker-img no-padding">
+											<img src="img/arpit.jpg" alt="" style="width: 400px;height: 400px; object-fit:contain;">
+										</div>
+										<div class="col-md-6 speaker-info no-padding">
+											<h6 class="text-uppercase">ORGANIZER</h6>
+											<h1 class="text-white">Arpit Agrawal</h1>
+											<p>
+												GitHub Campus Expert. <br> Web Development, Python-Django, Security and Penetration Testing, Networking
+											</p>
+											<p><span class="lnr lnr-phone-handset"></span>+91 98377 28991</p>
+											<p><span class="lnr lnr-location"></span>1700010040@iitdh.ac.in</p>
+											
+										</div>
+									</div>
+								</div>								
+							</div>
+							<div class="single-speaker item">
+								<div class="container">
+									<div class="row align-items-center">
+										<div class="col-md-6 speaker-img no-padding">
+											<img src="img/sonu.jpg" alt="" style="width: 400px;height: 400px; object-fit:contain;">
+										</div>
+										<div class="col-md-6 speaker-info no-padding">
+											<h6 class="text-uppercase">ORGANIZER</h6>
+											<h1 class="text-white">Sonu Sourav</h1>
+											<p>
+												Android Development, <br> C++, ML, Arduino, Java, Firebase 
+											</p>
+											<p><span class="lnr lnr-phone-handset"></span>+91 99162 28725</p>
+											<p><span class="lnr lnr-location"></span>170020021@iitdh.ac.in</p>
+										</div>
+									</div>
+								</div>								
+							</div>	
+							<div class="single-speaker item">
+								<div class="container">
+									<div class="row align-items-center">
+										<div class="col-md-6 speaker-img no-padding">
+											<img src="img/Mandeep.jpg" alt="" style="width: 400px;height: 400px; object-fit:contain;">
+										</div>
+										<div class="col-md-6 speaker-info no-padding">
+											<h6 class="text-uppercase">ORGANIZER</h6>
+											<h1 class="text-white">Mandeep Bawa</h1>
+											<p>
+												ML, Keras, Deep Learning, Android, Python, Java, Web Development 
+											</p>
+											<p><span class="lnr lnr-phone-handset"></span>+91 88476 74044</p>
+											<p><span class="lnr lnr-location"></span>170030038@iitdh.ac.in</p>
+										</div>
+									</div>
+								</div>								
+							</div>	
+							<div class="single-speaker item">
+								<div class="container">
+									<div class="row align-items-center">
+										<div class="col-md-6 speaker-img no-padding">
+											<img src="img/prateek.jpeg" alt="" style="width: 400px;height: 400px; object-fit:contain;">
+										</div>
+										<div class="col-md-6 speaker-info no-padding">
+											<h6 class="text-uppercase">ORGANIZER</h6>
+											<h1 class="text-white">Prateek Jain</h1>
+											<p>
+												C++, ML, Algorithms, PHP, Javascript, Python
+											</p>
+											<p><span class="lnr lnr-phone-handset"></span>+91 82798 03383</p>
+											<p><span class="lnr lnr-location"></span>170010007@iitdh.ac.in</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="single-speaker item">
+								<div class="container">
+									<div class="row align-items-center">
+										<div class="col-md-6 speaker-img no-padding">
+											<img src="img/svp.jpeg" alt="" style="width: 400px;height: 400px; object-fit:contain;">
+										</div>
+										<div class="col-md-6 speaker-info no-padding">
+											<h6 class="text-uppercase">ORGANIZER</h6>
+											<h1 class="text-white">S V Praveen</h1>
+											<p>
+												All Rounder
+											</p>
+											<p><span class="lnr lnr-phone-handset"></span>+91 96321 83719</p>
+											<p><span class="lnr lnr-location"></span>170010025@iitdh.ac.in</p>
+										</div>
+									</div>
+								</div>								
+							</div>								
+							</div>																					
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End spekers Area -->		
 
 			<!-- start footer Area -->		
 			<footer class="footer-area section-gap">
@@ -263,7 +386,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="single-footer-widget">
 								<h6>Follow Us</h6>
 								<div class="footer-social d-flex align-items-center">
-									<a href="https://www.facebook.com/events/371618913652209/"><i class="fa fa-facebook"></i></a>
+									<a href="https://www.facebook.com/DevHack2019/"><i class="fa fa-facebook"></i></a>
 								</div>
 							</div>
 						</div>							
