@@ -1,3 +1,3 @@
 # [devhack2019.github.io](https://devhack2019.github.io/)
 
-- This repo contains code for the website.
+This repo contains code for the DevHack Website. :smile:
