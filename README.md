@@ -1,3 +1,3 @@
-# devhack2019.github.io
+# [devhack2019.github.io](https://devhack2019.github.io/)
 
-- Official Website for the hackathon
+- This repo contains code for the website.
